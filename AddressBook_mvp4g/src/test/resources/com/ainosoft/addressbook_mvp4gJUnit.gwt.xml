@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="addressbook_mvp4g">
+	<!-- Inherit our applications main module. -->
+	<inherits name='com.ainosoft.addressbook_mvp4g' />
+
+	<!-- Specify the path to any remote services. -->
+	<servlet path="/OpInvoke/Op/*"
+		class="org.appops.invoker.bindings.http.AppOpsOpEndPoint" />
+	<servlet path="/addressbook_mvp4g/greet" class="com.ainosoft.server.AddressBookServiceImpl" />
+
+	<source path='client' />
+	<source path='shared' />
+
+</module>
