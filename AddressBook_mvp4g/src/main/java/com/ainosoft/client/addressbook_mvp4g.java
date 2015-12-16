@@ -1,11 +1,11 @@
 package com.ainosoft.client;
 
-import org.appops.shared.altcore.InstanceProvider;
-import org.appops.shared.altcore.altentity.Primitive;
-import org.appops.shared.altcore.altentity.type.AltDynamicEntityType;
-import org.appops.shared.altcore.altentity.type.AltEntityType;
-import org.appops.shared.altcore.altentity.type.AltPropertyType;
-import org.appops.shared.altcore.altentity.type.ClientTypeMap;
+import org.appops.altshared.shared.altcore.InstanceProvider;
+import org.appops.altshared.shared.altcore.altentity.Primitive;
+import org.appops.altshared.shared.altcore.altentity.type.AltDynamicEntityType;
+import org.appops.altshared.shared.altcore.altentity.type.AltEntityType;
+import org.appops.altshared.shared.altcore.altentity.type.AltPropertyType;
+import org.appops.altshared.shared.altcore.altentity.type.ClientTypeMap;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;

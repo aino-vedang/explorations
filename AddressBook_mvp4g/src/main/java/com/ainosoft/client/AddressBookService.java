@@ -1,9 +1,9 @@
 package com.ainosoft.client;
 
-import org.appops.client.binding.AppTokenAnnotation;
-import org.appops.client.binding.OpToken;
-import org.appops.client.json.async.ClientCallback;
-import org.appops.client.json.async.ClientService;
+import org.appops.json.client.async.ClientCallback;
+import org.appops.json.client.async.ClientService;
+import org.appops.json.client.binding.AppTokenAnnotation;
+import org.appops.json.client.binding.OpToken;
 
 import com.ainosoft.shared.AddressSlim;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

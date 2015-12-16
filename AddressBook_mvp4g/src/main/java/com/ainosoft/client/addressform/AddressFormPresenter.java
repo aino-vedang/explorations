@@ -2,7 +2,7 @@ package com.ainosoft.client.addressform;
 
 import java.io.Serializable;
 
-import org.appops.client.json.async.ClientCallback;
+import org.appops.json.client.async.ClientCallback;
 
 import com.ainosoft.client.AddressBookService;
 import com.ainosoft.client.event.AddressBookEventBus;

@@ -2,10 +2,10 @@ package com.ainosoft.server.binding;
 
 import java.util.concurrent.ConcurrentSkipListMap;
 
+import org.appops.altshared.shared.altcore.StaticsRegistry;
 import org.appops.common.service.Initializer;
 import org.appops.core.annotation.InitializationOrder;
 import org.appops.core.provision.ServiceModule;
-import org.appops.shared.altcore.StaticsRegistry;
 
 import com.google.inject.Singleton;
 import com.google.inject.TypeLiteral;

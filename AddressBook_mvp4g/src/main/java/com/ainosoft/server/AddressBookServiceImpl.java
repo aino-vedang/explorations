@@ -1,6 +1,6 @@
 package com.ainosoft.server;
 
-import org.appops.client.json.async.ClientCallback;
+import org.appops.json.client.async.ClientCallback;
 
 import com.ainosoft.client.AddressBookService;
 import com.ainosoft.shared.AddressSlim;

@@ -1,11 +1,11 @@
 package com.ainosoft.server;
 
+import org.appops.altshared.shared.altdto.AltService;
 import org.appops.entities.core.schema.Schema;
 import org.appops.entities.hibernate.impls.helper.HibernateSchemaEditingHelper;
 import org.appops.entities.hibernate.types.HibernatePojoType;
 import org.appops.entities.hibernate.types.HibernateTypeMap;
 import org.appops.entities.hibernate.types.TypeMap;
-import org.appops.shared.altdto.AltService;
 import org.junit.Assert;
 import org.junit.Test;
 

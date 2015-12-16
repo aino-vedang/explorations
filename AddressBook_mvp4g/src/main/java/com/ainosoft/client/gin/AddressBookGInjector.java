@@ -1,6 +1,6 @@
 package com.ainosoft.client.gin;
 
-import org.appops.client.binding.JsonizerGinModule;
+import org.appops.json.client.binding.JsonizerGinModule;
 import org.appops.ui.common.UiAppopsGinModule;
 
 import com.google.gwt.core.client.GWT;

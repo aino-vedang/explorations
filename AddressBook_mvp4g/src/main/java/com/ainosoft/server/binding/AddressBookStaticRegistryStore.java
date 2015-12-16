@@ -3,7 +3,7 @@ package com.ainosoft.server.binding;
 import java.io.Serializable;
 import java.util.HashMap;
 
-import org.appops.shared.altcore.StaticsRegistry;
+import org.appops.altshared.shared.altcore.StaticsRegistry;
 
 /**
  * @author vedang@ainosoft.com

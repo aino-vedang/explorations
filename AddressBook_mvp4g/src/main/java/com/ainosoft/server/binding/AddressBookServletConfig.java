@@ -10,19 +10,19 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import org.appops.altshared.shared.altcore.altoperations.AltInterface;
+import org.appops.altshared.shared.altcore.altoperations.AltOperation;
+import org.appops.altshared.shared.altcore.altutil.AltAppOpsException;
+import org.appops.altshared.shared.altdto.AltService;
 import org.appops.common.service.Initializer;
 import org.appops.entities.hibernate.HibernateServiceModule;
 import org.appops.invoker.bindings.InvokerServletModule;
 import org.appops.invoker.call.ServiceCallStack;
 import org.appops.invoker.call.lifecycle.Call;
+import org.appops.json.server.binding.JsonizerModule;
 import org.appops.search.module.SearchModule;
 import org.appops.server.UiAppopsGuiceModule;
-import org.appops.server.binding.JsonizerModule;
 import org.appops.services.service.ServicesServiceModule;
-import org.appops.shared.altcore.altoperations.AltInterface;
-import org.appops.shared.altcore.altoperations.AltOperation;
-import org.appops.shared.altcore.altutil.AltAppOpsException;
-import org.appops.shared.altdto.AltService;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.inject.Guice;

@@ -2,8 +2,8 @@ package com.ainosoft.shared;
 
 import java.io.Serializable;
 
-import org.appops.shared.altcore.PojoMarker;
-import org.appops.shared.altcore.annotations.Typename;
+import org.appops.altshared.shared.altcore.PojoMarker;
+import org.appops.altshared.shared.altcore.annotations.Typename;
 
 @Typename(typename = "Address")
 public class AddressSlim implements Serializable, PojoMarker {

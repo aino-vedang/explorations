@@ -4,8 +4,8 @@ import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.appops.client.json.async.ClientCallback;
-import org.appops.shared.altcore.InstanceProvider;
+import org.appops.altshared.shared.altcore.InstanceProvider;
+import org.appops.json.client.async.ClientCallback;
 
 import com.ainosoft.client.sample.TestAddressBookService;
 import com.ainosoft.shared.AddressSlim;

@@ -3,7 +3,7 @@ package com.ainosoft.client.listpanel;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-import org.appops.client.json.async.ClientCallback;
+import org.appops.json.client.async.ClientCallback;
 
 import com.ainosoft.client.AddressBookService;
 import com.ainosoft.client.event.AddressBookEventBus;
