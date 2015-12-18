@@ -18,6 +18,7 @@ public class addressbook_mvp4g implements EntryPoint {
   public void onModuleLoad() {
 	  	Mvp4gModule module = (Mvp4gModule)GWT.create( Mvp4gModule.class );
 		module.createAndStartModule();
-		RootPanel.get().add( (Widget)module.getStartView());		
+		Label lab = new Label("test");
+		RootPanel.get().add( (Widget)module.getStartView());	
   } 
 }
