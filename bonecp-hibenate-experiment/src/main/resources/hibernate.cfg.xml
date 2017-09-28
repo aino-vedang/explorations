@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+
+
+		<property name="hibernate.connection.provider_class">com.jolbox.bonecp.provider.BoneCPConnectionProvider</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.password">mysql#htznr</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/bonecp_expr?useSSL=false</property>
+		<property name="hibernate.connection.autoReconnect">true</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		
+		<property name="bonecp.idleConnectionTestPeriod">60</property>
+		<property name="bonecp.partitionCount">3</property>
+		<property name="bonecp.acquireIncrement">10</property>
+		<property name="bonecp.maxConnectionsPerPartition">60</property>
+		<property name="bonecp.minConnectionsPerPartition">20</property>
+		<property name="bonecp.statementsCacheSize">50</property>
+		<property name="bonecp.releaseHelperThreads">3</property>
+
+		<mapping class="org.appops.exploration.dao.domain.DemoTable" />
+	</session-factory>
+</hibernate-configuration>
